@@ -40,7 +40,7 @@ class QuizViewController: UIViewController {
             displayAlert("Correct", messageText: "Right on!!")
         }
         else {
-            displayAlert("Wrong", messageText: "Dumb Ass!!")
+            displayAlert("Wrong", messageText: "Your selection was incorrect!!")
         }
         // TODO: Add code to display a message to the user telling them whether or not they guessed correctly.
     }
